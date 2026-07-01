@@ -220,3 +220,29 @@ text-decoration:none;
 z-index:9999;
 box-shadow:0 0 15px #25D366;
 }
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:12px;
+border:2px solid gold;
+}
+
+.review,.fare-card{
+background:#111;
+padding:20px;
+margin:20px auto;
+max-width:500px;
+border-radius:12px;
+border:1px solid gold;
+}
