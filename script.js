@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const trip = inputs[6].value;
       const passengers = inputs[7].value;
 
-      const message =
-`🚖 *Pankaj Travels Booking*
+const message = `
+🧳 *Pankaj Travels Booking*
 
 👤 Name: ${name}
 📱 Mobile: ${mobile}
@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
 📅 Date: ${date}
 ⏰ Time: ${time}
 🚕 Trip: ${trip}
-👥 Passengers: ${passengers}`;
-
+👥 Passengers: ${passengers}
+`;
       const url =
 "https://wa.me/916206048001?text=" + encodeURIComponent(message);
 
