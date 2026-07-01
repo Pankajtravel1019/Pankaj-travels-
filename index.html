@@ -158,7 +158,24 @@ loading="lazy">
 <!-- FARE -->
 
 <section id="fare">
+<section class="section">
 
+<h2 class="title">Fare Calculator</h2>
+
+<select id="trip">
+<option value="18">One Way - ₹18/KM</option>
+<option value="18">Round Trip - ₹18/KM</option>
+<option value="20">Airport - ₹20/KM</option>
+<option value="22">Tour Package - ₹22/KM</option>
+</select>
+
+<input type="number" id="km" placeholder="Enter Distance (KM)">
+
+<button onclick="calculateFare()">Calculate Fare</button>
+
+<h3 id="result"></h3>
+
+</section>
 <h2 class="title">FARE DETAILS</h2>
 
 <h1>₹18 / KM</h1>
@@ -264,7 +281,9 @@ loading="lazy">
 💬
 
 </a>
-
+<button class="share-btn" onclick="shareWebsite()">
+📤 Share Website
+</button>
 <footer>
 
 <h3>Pankaj Travels</h3>
