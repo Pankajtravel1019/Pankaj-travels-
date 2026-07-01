@@ -74,3 +74,18 @@ alert("Sharing not supported");
 }
 
 }
+
+function toggleMenu(){
+
+document.querySelector("nav").classList.toggle("active");
+
+}
+window.onload=function(){
+
+setTimeout(function(){
+
+document.getElementById("loader").style.display="none";
+
+},1200);
+
+}
