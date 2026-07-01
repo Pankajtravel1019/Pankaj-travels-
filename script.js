@@ -41,3 +41,36 @@ const message = `
   }
 
 });
+function calculateFare(){
+
+const km = document.getElementById("km").value;
+
+const rate = document.getElementById("trip").value;
+
+const total = km * rate;
+
+document.getElementById("result").innerHTML =
+"Estimated Fare : ₹ " + total;
+
+}
+function shareWebsite(){
+
+if(navigator.share){
+
+navigator.share({
+
+title:"Pankaj Travels",
+
+text:"Book Tata Magic 7 Seater",
+
+url:window.location.href
+
+});
+
+}else{
+
+alert("Sharing not supported");
+
+}
+
+}
