@@ -13,17 +13,7 @@ color:#fff;
 }
 
 header{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:18px 8%;
-background:#000;
-border-bottom:2px solid gold;
-z-index:999;
+
 }
 
 .logo h1{
